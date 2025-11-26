@@ -2,7 +2,8 @@
 
 /*GLOBAL STYLES */
 
-body {font-family: "Afacad", sans-serif; color: #403F2B;}
+body {font-family: "Afacad", sans-serif; color: #403F2B;
+	margin: 0px;}
 
 section {padding: 86px 84px}
 
@@ -31,31 +32,37 @@ h1 {font-family: "Young Serif";
 		   font-size:36px;
 	       color: #F7F1E1;}
 
-p {font-size: 40px;
+p {font-size: 30px;
 	color: #403F2B;
 	text-decoration: none;}
 
-	.body-beige {font-size: 40px; 
+	.body-beige {font-size: 30px; 
 				color: #F7F1E1;
 				text-decoration: none;}
 
 	.body-bold {font-weight: 400;
   				font-style: bold;} 
 
+  	.footer-header {font-family: "Young Serif";
+  					font-size:32px; 
+  					color:#403F2B;}
+
 
  /*TEXT LAYOUT */
 
 .text-align-center {text-align: center;}
 
+ul {list-style-type:disc;}
+
+li {font-size: 30px;}
+
  /*NAVIGATION*/
 
  header {background-color:#81754B;
  		padding: 16px 4%;
- 		top: 0%;
- 		left: 0%; 
- 		width: 100vw;
- 		margin: 0px;
- 		overflow-x : hidden;}
+ 		width: 100%;
+ 		margin: none;
+ 		box-sizing: border-box;}
 
  .nav-wrap {display: flex;
  			flex-direction: row;
@@ -72,24 +79,73 @@ p {font-size: 40px;
  		background-color: #F7F1E1; 
  		text-decoration: none;
  		border-radius: 36px;
+ 		margin-top: 0px;
+ 		margin-right: 46px;
+ 		margin-bottom: 0px;
+ 		margin-left: 46px;
  		width: 59 px;
- 		height: 183 px;
- 		margin: 0px, 46px;}
+ 		height: 183 px;}
 
  .button:hover {background-color: #B4833E}
 
 
+
  /*IMAGE STYLES */
 
+ img {max-width: 100%;
+ 	height: auto;}
 
+.image-style-hero {width: 1512px;
+					height: 489px;
+					object-fit: cover;
+					margin: none;}
 
+.card-image {width:323px; 
+			height:323px;
+			object-fit: cover;
+			border-radius: 162px 162px 0px 0px;}
 
+.long-card-image {width: 323px;
+				height:933px;
+				object-fit: cover;
+				border-radius: 162px 162px 0px 0px;
+				float: left;}
+
+.box-images {width: 350px;
+			height: 350px;
+			object-fit: cover;
+			border-radius: 36px;
+			margin: 40px;}
+
+.box-images-firing {width: 323px;
+					height: 323px;
+					object-fit: cover;
+					border-radius: 50px;
+					margin: 10px;}
 
 
 
  /*INDIVIDUAL STYLES */
 
 .position-relative {position: relative;}
+
+.footer-box-small {width: 483px;
+					height:339px;
+					border-radius: 50px;
+					background-color: #F7F1E1;
+					border: 42px;}
+
+.footer-box-large {width: 780px;
+					height: 339px;
+					border-radius: 50px;
+					background-color: #F7F1E1;
+					border: 42px;}
+
+.long-box {width: 323px; 
+			height: 654px;
+			border-radius: 50px; 
+			background-color: #B4833E;
+			padding: 20px; }
 
 
 
