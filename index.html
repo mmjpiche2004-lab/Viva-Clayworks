@@ -10,8 +10,9 @@
 	<title> Home | Viva Clayworks </title> 
 
 <!-- STYLES  -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles.css"> 
-	<link rel="stylesheet" type="text/css" href="layouts.css">
+	<link rel="stylesheet" type="text/css" href="layouts.css"> 
 
 	<style> /*document background*/
 		body {background-color: #F7F1E1; /*cream/soft beige*/}
@@ -40,15 +41,17 @@
 		
 	<div class="nav-wrap"><!-- nav wrap begins -->
 		<div> 
-			<h1 class="logo"> viva clayworks </h1>
+			
+			<a href="index.html" class="logo"> viva clayworks </a>
+			<!-- <h1 class="logo"> viva clayworks </h1> -->
 		</div>
 
 		<div> 
 			<nav> 
 				<ul>
-					<a href="#visit" class="button">pottery classes</a>
-					<a href="#visit" class="button">firing</a>
-					<a href="#visit" class="button">about us</a>
+					<a href="potteryclasses.html" class="button">pottery classes</a>
+					<a href="firing.html" class="button">firing</a>
+					<a href="aboutus.html" class="button">about us</a>
 					<a href="#visit" class="button">contact</a>
 				</ul>
 			</nav>
@@ -69,14 +72,19 @@
 			</div>
 		</div>
 
-		<div class="position-relative">
-			<img src="images/hero.jpg" class="image-style-hero">
-		</div>
-
 	</div>
 </section> 
 <!-- HERO / IMAGE | END  -->
 
+
+<!-- IMAGE --> 
+<section>
+	<div class="position-relative">
+			<img src="images/hero.jpg" class="image-style-hero">
+	</div>
+
+</section>
+<!-- IMAGE | END --> 
 
 
 <!-- OUR SERVICES  -->
@@ -119,32 +127,27 @@
 
 		<div class="row">
 
-		<div style="flex-direction: column;"> 
 		
-				<div class="col col-lg-6">
-					<h1> news update </h1>
-						<p class="body-bold"> Price increase as of January 1</p> 
-						<ul> 
-							<li> 6 week classes will be $280 </li>
-							<li> regular clays $44.95 a bag </li>
-							<li> tool kits $26.95 a set </li>
-							<li> pottery night events $75 </li>
-						</ul>
+					<div class="col col-lg-7">
+						<h1> news update </h1>
+							<p class="body-bold"> Price increase as of January 1</p> 
+							<ul> 
+								<li> 6 week classes will be $280 </li>
+								<li> regular clays $44.95 a bag </li>
+								<li> tool kits $26.95 a set </li>
+								<li> pottery night events $75 </li>
+							</ul>
+					
+
+						<h1> market information </h1>
+							<p> Our storefront is open whenever we are! We have tons of locally made wares, and would love to see you in our store.</p> 
+							<p> For more information about our market, please check out viva-clayworks.myshopify.com</p>
+					</div>
+
+	
+				<div class="col col-lg-3">
+					<img src="images/newsupdate.jpg" class="long-card-image"> 
 				</div>
-
-				<div class="col col-lg-6">
-					<h1> market information </h1>
-						<p> Our storefront is open whenever we are! We have tons of locally made wares, and would love to see you in our store.</p> 
-						<p> For more information about our market, please check out viva-clayworks.myshopify.com</p>
-				</div>
-
-		</div>
-
-
-			<div class="col col-lg-3">
-				<img src="images/newsupdate.jpg" class="long-card-image"> 
-
-			</div>
 
 		</div>
 
@@ -165,15 +168,19 @@
 
 				<div class="footer-box-small"> 
 					<p class="footer-header"> newsletter </p>
+
+						<div class="col"> 
+							<a href="#visit" class="email-button"> Email </a>
+							<a href="#visit" class="sign-up"> Sign Up </a>
+						</div>
 				</div>
 
-				<div class="footer-box-large col-lg-7"> 
-					<div class="row">
-						<p class="footer-header"> contact information </p>
-						<p class="footer-header"> hours </p>
-
+					<div class="footer-box-large col-lg-7"> 
+							<p class="footer-header"> contact information </p>
+							<p class="footer-body"> 780. 413. 0118</p>
+							<p class="footer-body"> info@vivaclayworks.com</p>
+							<p class="footer-body"> 10125 81 Avenue <br> Edmonton, AB T6E 1W9</p>
 					</div>
-				</div>
 
 			</div>
 
